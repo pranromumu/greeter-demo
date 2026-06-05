@@ -1,0 +1,13 @@
+[build-system] 
+requires = ["setuptools>=61.0"] 
+build-backend = "setuptools.build_meta" 
+ 
+[project] 
+name = "greeter" 
+version = "1.0.0" 
+description = "A simple greeter package" 
+authors = [{name = "Your Name"}] 
+license = {text = "MIT"} 
+ 
+[tool.setuptools] 
+py-modules = ["greeter"] 
