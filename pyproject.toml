@@ -9,5 +9,5 @@ description = "A simple greeter package"
 authors = [{name = "Your Name"}] 
 license = {text = "MIT"} 
  
-[tool.setuptools] 
-py-modules = ["greeter"] 
+[tool.setuptools.packages.find]
+where = ["src"]
